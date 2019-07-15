@@ -1,0 +1,25 @@
+// =================================================
+// assets/scss/layout/_sidebar.scss
+// =================================================
+
+/* Main: Sidebar */
+.sidebar {
+  @include bp-small-min {
+    min-width: 390px;
+  }
+
+  &__inner {
+    min-height: calc( 100vh - 70px );
+    padding: calc-rem( 25px 41px 20px );
+    margin-right: calc-rem( -41px );
+    background-color: #fff;
+
+    @include bp-large {
+      @include margin( -41px, 'left' );
+    }
+  }
+
+  .card-body {
+    padding: 0;
+  }
+}

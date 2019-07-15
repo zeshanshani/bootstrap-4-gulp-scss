@@ -1,0 +1,35 @@
+  //‘ =================================================
+// assets/scss/layout/_content.scss
+// =================================================
+
+/* Main: Content */
+.content-sidebar {
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 33.333%;
+    width: calc( 33.333% - 20px );
+    z-index: -1;
+
+    @include bp-x-large {
+      display: none;
+    }
+  }
+}
+
+.content {
+  padding-top: calc-rem( 34px );
+  flex-shrink: 1;
+
+  // On Dashboard Page
+  // .page-dashboard & {
+  //   padding-right: 40px;
+  // }
+}

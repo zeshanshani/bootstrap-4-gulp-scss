@@ -1,0 +1,92 @@
+// ===================================
+// assets/scss/components/_dropdown.scss
+// ===================================
+//
+// Section component styling goes here.
+// ==================================
+
+.dropdown {
+
+  .dropdown-toggle {
+    color: $dark;
+    font-weight: $font-weight-bold;
+
+    &:after {
+      @include fa-icon;
+      @extend .fas;
+      border: none;
+      content: fa-content($fa-var-chevron-down);
+      opacity: 0.4;
+      width: calc-rem( 12px );
+      margin-left: calc-rem( 10px );
+    }
+
+    @include dark-mode;
+  }
+
+  .dropdown-item {
+    @include padding( 4px 12px );
+    color: $dark;
+    border-top: 1px solid rgba( $dark, 0.1 );
+    @include font-size( 16px );
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &.active, &:active {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+
+  // Togglable Item
+  .dropdown-item-togglable {
+    padding: 0;
+  }
+
+  .dropdown-item-toggle {
+    @include padding( 12px 20px );
+    display: block;
+    cursor: pointer;
+  }
+
+  .dropdown-item-content {
+    @include padding( 6px 20px 12px );
+    display: block;
+  }
+
+  .dropdown-item-overlay {
+    position: absolute;
+    background: #fff;
+    top: 0;
+    padding: 0;
+
+    &--left {
+      right: 100%;
+    }
+
+    &--right {
+      left: 100%;
+    }
+  }
+
+  // Menu
+  .dropdown-menu {
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+  }
+
+  @include dark-mode( true ) {
+
+    .dropdown-menu {
+      background-color: #1A1B24;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+// ===================================
+// assets/scss/main.scss
+// ===================================
+//
+// All partials are imported here.
+// ==================================
+
+// ==================================
+// Libraries
+// ==================================
+
+// Bourbon
+@import "bourbon/bourbon";
+
+
+// Bootstrap
+@import "vendor/bootstrap";
+
+// ==================================
+// Functions, Mixins & Variables
+// ==================================
+
+@import "variables";
+@import "mixins";
+
+// ==================================
+// Vendor
+// ==================================
+
+// Fontawesome
+@import "vendor/fontawesome";
+
+// Slick
+// @import "vendor/slick";
+
+// AOS
+// @import "vendor/aos";
+// $aos-distance: 50px;
+
+// @import "../../node_modules/aos/src/sass/aos.scss";
+
+// ==================================
+// Base
+// ==================================
+
+@import "fonts";
+@import "base/reset";
+@import "base/defaults";
+
+// ==================================
+// Layout
+// ==================================
+
+@import "layout/extends";
+
+// Header
+@import "layout/header";
+@import "layout/header/topbar";
+@import "layout/header/navbar";
+
+// Main
+@import "layout/main";
+
+// Footer
+@import "layout/footer";
+
+// ==================================
+// Components
+// ==================================
+
+@import "components/section";
+@import "components/form";
+@import "components/typography";
+@import "components/icons";
+@import "components/buttons";
+@import "components/social";
+@import "components/utility";
+
+@import "components/container";
+@import "components/tabs";
+
+@import "components/miscellaneous";
+
+// ==================================
+// State
+// ==================================
+
+@import "state/extra-large";
+@import "state/large";
+@import "state/medium";
+@import "state/small";
+
+// ==================================
+// Pages
+// ==================================

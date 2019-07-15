@@ -1,0 +1,61 @@
+// ====================================
+// assets/scss/components/_common.scss
+// ====================================
+
+// Common Styling
+
+// Backgrounds
+.bg-primary-light {
+  background-color: $primary-light !important;
+}
+
+.bg-primary-dark {
+  background-color: $primary-dark !important;
+}
+
+.bg-grey {
+  background-color: #ECEBF3 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.text-grey {
+  color: rgba( #fff, 0.5 ) !important;
+}
+
+// Blur
+.blur {
+  -webkit-filter: blur( 13px ); /* Chrome, Safari, Opera */
+  filter: blur( 13px );
+  // transition: 0.25s all linear;
+}
+
+.blurring {
+  // @include transition( $transition--base );
+}
+
+// Dark Mode
+.text-muted {
+
+}
+
+// Text Dark
+.text-dark {
+
+}
+
+// Flexbox
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1 !important;
+}
+
+// Rounded
+.rounded-large {
+  border-radius: $border-radius * 2 !important;
+}

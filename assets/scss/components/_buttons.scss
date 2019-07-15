@@ -1,0 +1,17 @@
+// =================================================
+// assets/scss/components/_buttons.scss
+// =================================================
+
+/* Component: Buttons */
+.btn {
+
+  &-pill {
+    border-radius: 50em !important;
+  }
+
+  &-circle {
+    @include size-rem( 43px 43px );
+    @include font-size( 16px );
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "bootstrap-4-gulp-scss",
+  "version": "1.0.0",
+  "description": "A repository for ProjectName website",
+  "main": "assets/js/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeshanshani/bootstrap-4-gulp-scss.git"
+  },
+  "author": "Zeshan Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeshanshani/bootstrap-4-gulp-scss/issues"
+  },
+  "homepage": "https://github.com/zeshanshani/bootstrap-4-gulp-scss#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^6.0.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

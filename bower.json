@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-4-gulp-scss",
+  "description": "A repository for ProjectName website",
+  "main": "assets/js/src/app.js",
+  "authors": [
+    "Zeshan Ahmed"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/zeshanshani/bootstrap-4-gulp-scss",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.9.0"
+  }
+}

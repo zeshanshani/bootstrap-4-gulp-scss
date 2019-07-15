@@ -1,0 +1,106 @@
+// =================================================
+// assets/scss/vendor/_bootstrap.scss
+// =================================================
+
+// Required
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+// Variables Override
+// ===================================
+// assets/scss/vendor/_bootstra-variables.scss
+// ===================================
+//
+// Bootstrap Sass variables overwrite here.
+// ==================================
+
+// Gradient Colors
+$font-family-base: "Avenir", $font-family-sans-serif;
+
+$primary         : #362C95;
+$primary-light   : $primary;
+$primary-dark    : $primary;
+$secondary       : #11D7E1;
+$secondary-light : #73EBE6;
+$dark            : #190430;
+$darker          : #1A1B24;
+$danger          : #BE2F3E;
+$grey            : #E4DEE8;
+
+$colors: (
+  "primary"   : $primary,
+  "secondary" : $secondary,
+  "danger"    : $danger,
+  "dark"      : $dark,
+  "grey"      : $grey
+);
+
+$theme-colors: (
+  "primary"   : $primary,
+  "secondary" : $secondary,
+  "danger"    : $danger,
+  "dark"      : $dark,
+  "grey"      : $grey
+);
+
+// Darken Versions
+$primary-hover   : darken( $primary, 5% );
+$secondary-hover : darken( $secondary, 5% );
+$danger-hover    : darken( $danger, 5% );
+$success-hover   : darken( $success, 5% );
+$warning-hover   : darken( $warning, 5% );
+$info-hover      : darken( $info, 5% );
+
+$headings-color: $primary-dark;
+$text-muted: rgba( $dark, 0.3 );
+
+$link-color: $primary;
+$link-color: $primary;
+$link-hover-color: $primary-hover;
+
+// Buttons
+$btn-font-weight: bold;
+$btn-border-radius-base: 0px;
+
+$font-size-base: 0.875rem;
+
+// Grid
+$grid-gutter-width: 40px;
+
+// Headings
+$headings-font-weight: 700;
+
+$h1-font-size : $font-size-base * 2.25;
+$h2-font-size : $font-size-base * 1.75;
+$h3-font-size : $font-size-base * 1.428571429;
+$h4-font-size : $font-size-base * 1.25;
+$h5-font-size : $font-size-base * 1.15;
+$h6-font-size : $font-size-base;
+
+// Font
+$font-weight-semi-bold: 600;
+
+$font-weight-bold: 600;
+
+// Navbar
+$navbar-padding-y: 0px;
+$navbar-padding-x: 0px;
+
+$navbar-nav-link-padding-x: 2rem;
+
+// $nav-link-height: 100px;
+$navbar-dark-color: #fff;
+$navbar-dark-active-color: $primary;
+$navbar-dark-hover-color: $primary;
+
+// Forms
+
+// Radius
+$border-radius: 0.125rem;
+
+// Custom Checkbox
+$custom-control-indicator-size: .8125rem;
+$custom-checkbox-indicator-border-radius: 1px;
+$custom-control-indicator-checked-bg: #07B0BB;
+$custom-checkbox-indicator-icon-checked: none;

@@ -1,0 +1,18 @@
+// ==================================
+// SCSS/STATE/_EXTENDS.SCSS
+// ==================================
+
+@include bp-medium {
+  %resp-base-no-float {
+    width: 100%;
+    float: none;
+  }
+
+  %resp-base-no-padding-left {
+    padding-left: 0;
+  }
+
+  %resp-base-no-padding-right {
+    padding-right: 0;
+  }
+}
